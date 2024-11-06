@@ -30,6 +30,7 @@
   align-items: center;
   border-radius: 2em;
   border: 1px solid blue;
+  cursor: pointer;
 }
 
 #dog-summary-container {
@@ -50,4 +51,12 @@
 
 body {
   margin: 0;
+}
+
+#dog-bar span.hide {
+  display: none;
+}
+
+button {
+  cursor: pointer;
 }
